@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-destaque {
+    color: blue;
+}
+
+.p-destaque {
+    color: green;
+    border: solid 2px black;
+}
