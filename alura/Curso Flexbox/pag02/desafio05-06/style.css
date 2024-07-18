@@ -5,14 +5,18 @@
 }
 
 body{
+    display: flex;
+    align-items: center;
     background-color: #000000;
     color: #F6F6F6;
     height: 100vh;
+    font-size: 4em;
 }
 
 .container{
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     height: 300px;
 }
