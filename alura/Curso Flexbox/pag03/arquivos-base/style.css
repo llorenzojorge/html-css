@@ -14,8 +14,18 @@ body{
     justify-content: space-between;
 }
 
+.container_conteudo{
+    width: 615px;
+}
+
+.container_conteudo_titulo{
+    font-size: 36px;
+}
+
+.container_conteudo_paragrafo{
+    font-size: 24px;
+}
+
 .titulo-destaque{
     color: #22D4FD;
 }
-
-// 615 36 24
