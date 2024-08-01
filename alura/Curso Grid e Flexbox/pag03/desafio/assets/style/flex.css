@@ -26,6 +26,11 @@
     flex-grow: 1;
 }
 
+.eventos__lista {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @media (min-width: 720px) {
     /* Cabeçalho */
     .menu {
