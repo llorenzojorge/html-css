@@ -63,9 +63,13 @@
         row-gap: 1em;
     }
 
+    /* Eventos */
     .eventos__lista {
         justify-content: flex-end;
     }
+
+    /* Agenda */
+    .agenda__lista
 }
 
 @media (min-width: 1440px) {
