@@ -21,6 +21,7 @@
     gap: 10px;
 }
 
+/* Deixando a img da barra responsiva */
 .destaques__barra {
     flex-grow: 1;
 }
