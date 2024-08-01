@@ -21,6 +21,10 @@
     gap: 10px;
 }
 
+.destaques__barra {
+    flex-grow: 1;
+}
+
 @media (min-width: 720px) {
     /* Cabeçalho */
     .menu {
@@ -63,6 +67,19 @@
 
     .categorias{
         display: flex;
-        
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .destaques {
+        display: flex;
+    }
+
+    .categorias__lista {
+
+    }
+
+    .categorias__destaque {
+
     }
 }
