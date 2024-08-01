@@ -53,6 +53,10 @@
         column-gap: 1.5em;
         row-gap: 1em;
     }
+
+    .eventos__lista {
+        justify-content: flex-end;
+    }
 }
 
 @media (min-width: 1440px) {
