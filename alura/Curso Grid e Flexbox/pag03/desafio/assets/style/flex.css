@@ -49,6 +49,10 @@
     justify-content: center;
 }
 
+.agenda__item {
+    flex-grow: 1;
+}
+
 
 @media (min-width: 720px) {
     /* Cabeçalho */
@@ -69,7 +73,9 @@
     }
 
     /* Agenda */
-    .agenda__lista
+    .agenda__lista {
+        justify-content: flex-end;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -108,11 +114,4 @@
         display: flex;
     }
 
-    .categorias__lista {
-
-    }
-
-    .categorias__destaque {
-
-    }
 }
